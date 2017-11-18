@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_vb_loc2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/p2"
+        tools:context="com.example.corina.deutschlernen.VbLoc2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SÄTZE MIT DEM VERB AM ZWEITE POSITION"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="40dp"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WORT VB SB"
+                android:layout_marginLeft="110dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="40dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="einerseits..andererseits = pe de o parte..pe de alta parte"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="auf jeden Fall = in orice caz"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="außerdem = inafara de aceasta"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="darüber hinaus = in plus fata de"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dann = dupa aceea"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wissen_kennen_konnen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/p2"
+    tools:context="com.example.corina.deutschlernen.wissenKennenKonnen">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WISSEN KENNEN KÖNNEN"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WISSEN -> eine Information haben; Informationen haben"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Ich WEISS doch, dass du nicht gern joggen gehst.\nIch WEISS überhaupt nicht, wie mir das passieren konnte!"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KENNEN -> jdn./etw. schon einmal getroffen haben; mit etw./jdm. bekannt sein"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: KENNST du schon meinen neuen Kollegen?"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KÖNNEN -> wissen, wie etw. geht; die Möglichkeit haben; die Erlaubnis haben"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Ich KANN ein Bier auf Deutsch bestellen, aber mehr auch nie.\nIch KANN euch mitnehmen.\nIch KANN Torten backen, aber Plätzchen gelingen mir nie.\nMein Mathlehrer KANN überhaupt nicht erklären.\nDu KANNST gerne mein Auto nehmen."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+
+</LinearLayout>

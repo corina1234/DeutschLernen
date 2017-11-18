@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vb_final"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/p2"
+    tools:context="com.example.corina.deutschlernen.VbFinal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SÄTZE MIT DEM VERB AM ENDE"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WORT SB.....VB"
+        android:layout_marginLeft="110dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="um..zu = ca sa         !! OHNE SUBIECT"
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="damit = ca sa"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ohne..zu = fara sa         !! OHNE SUBIECT"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ohne dass = fara sa"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="statt..zu = in loc sa         !! OHNE SUBIECT"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="statt dass = in loc sa"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nachdem = dupa aceea"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="falls = in caz ca"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="während = in timpul"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bevor = inainte de"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

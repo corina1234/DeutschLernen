@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_diateza_pasiva"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/p2"
+    tools:context="com.example.corina.deutschlernen.diatezaPasiva">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSIV"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Präsent"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Das Buch WIRD von mir GELESEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Präteritum"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Das Buch WURDE von mir GELESEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfekt"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Das Buch IST von mir GELESEN WORDEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plusquamperfekt"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Das Buch WAR von mir GELESEN WORDEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zukunft"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Das Buch WIRD von mir GELESEN WERDEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konjunktiv 2 Präsent"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Das Buch WÜRDE von mir GELESEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konjunktiv 2 Präteritum"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Das Buch WÄRE von mir GELESEN WORDEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Präsent + Modal Verb"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Es KANN von mir GELESEN WERDEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Präteritum + Modal Verb"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Es KONNTE von mir GELESEN WERDEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konjunktiv 2 Präsent + Modal Verb"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Es KÖNNTE von mir GELESEN WERDEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konjunktiv 2 Präteritum + Modal Verb"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: Es HÄTTE von mir GELESEN WERDEN KÖNNEN."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nachdem_satze"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/p2"
+    tools:context="com.example.corina.deutschlernen.NachdemSatze">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NACHDEM SÄTZE"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nachdem SB...VB"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorMov"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nachdem Plusq, Präteritum"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorMov"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="z.B.: NACHDEM er den ganzen Tag FERNSEHEN HATTE, GING er spazieren."
+        android:layout_marginBottom="20dp"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimary"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nachdem Perfekt, Präsent"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorMov"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="z.B.: NACHDEM er FERNSEHEN HAT, GEHT er spazieren."
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+</ScrollView>
