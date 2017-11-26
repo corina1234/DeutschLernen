@@ -245,6 +245,7 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("ähnlich","-", "asemanator","-", "die Ähnlichkeit = asemanare" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("die Wahrscheinlichkeit","-", "probabilitate","-", "wahrscheinlich = probabil" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("wahrscheinlich","-", "probabil","wohl, vermeintlich, angeblich, vermutlich, vielleicht = probabil", "die Wahrscheinlichkeit" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("anscheinend","-", "probabil","wohl, vermeintlich, angeblich, vermutlich, vielleicht, wahrscheinlich = probabil", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("wohl","-", "probabil","wahrscheinlichkeit, vermeintlich, angeblich, vermutlich, vielleicht  = probabil", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("geschehen","- geschah - ist..geschehen", "a se intampla","passieren = a se intampla", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("passieren","-", "a se intampla","geschehen = a se intampla", "-" ,TipStructura.Verb));
@@ -1322,7 +1323,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("auf dem Markt","-", "la market","-", "-" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("die Pressemeldung","-", "comunicat de presa","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("sich bewerben um + Akk","-", "a solicita, a aplica (job)","-", "die Bewerbung = solicitare, interviu" ,TipStructura.Verb));
-        structuraSingletone.adaugaStructura(new Structura("üblich","-", "de obicei, obisnuinta","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("üblich","-", "de obicei, obisnuit","gewöhnlich = de obicei, obisnuit", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("gewöhnlich","-", "de obicei, obisnuit","üblich = de obicei, obisnuit", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("übernehmen","- übernahm -hat..übernommen", "a prelua","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("nähen","-", "a coase","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("Kontakte/ Freundschaft knüpfen","-", "a- si face contacte/ prieteni","-", "-" ,TipStructura.Constructii));
@@ -1488,7 +1490,34 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("zweifeln an + D","-", "a se indoi de","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("reagieren auf + Akk","-", "a reactiona la","wirken auf + Akk = a reactiona la medicamente", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("wirken auf + Akk","-", "a reactiona la medicamente","reagieren auf + Akk = a reactiona la", "-" ,TipStructura.Verb));
-
+        structuraSingletone.adaugaStructura(new Structura("ausreichen","-", "a fi suficient","genug sein = a fi suficient", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("genug sein","-", "a fi suficient","ausreichen = a fi suficient", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("dringend","-", "urgent","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("die Abgase","-", "gaze de esapament","-", "!Achtung: Forma e de plural" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Nachfrage","-", "cerere","das Angebot = oferta", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("das Angebot","-", "oferta","die Nachfrage = cerere", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Wirklichkeit","-", "realitate","die Realität = realitate", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Realität","-", "realitate","die Wirklichkeit = realitate", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("ewig","-", "vesnic","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("das Blatt","-", "foaie","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("wechseln","-", "a schimba","modifizieren, verändern = a schimba", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("verändern","-", "a schimba","modifizieren, wechseln = a schimba", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("modifizieren","-", "a schimba","wechseln, verändern = a schimba", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("die Metzgerei","-", "macelarie","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Rollstuhl","-", "scaun cu rotile","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("anzünden","-", "a incendia","-", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("allmählich","-", "treptat","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("die Pflaume","-", "pruna","die Zwetschge = pruna", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Zwetschge","-", "pruna","die Pflaume = pruna", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("bremsen","-", "a frana","-", "die Bremse = frana" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("die Bremse","-", "frana","-", "bremsen = a frana" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("da sein","-", "a fi aici","hier sein = a fi aici", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("hier sein","-", "a fi aici","da sein = a fi aici", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("der Verkehr","-", "trafic","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("das Geräusch","-", "zgomot","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Fahrrad","-", "bicicleta","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("als ob","-", "ca si cum","als = ca si cum", "-" ,TipStructura.Prepozitie));
+        structuraSingletone.adaugaStructura(new Structura("als","-", "ca si cum","als ob = ca si cum", "-" ,TipStructura.Prepozitie));
 /*
         try
         {
