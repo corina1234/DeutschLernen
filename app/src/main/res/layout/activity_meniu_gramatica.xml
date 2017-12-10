@@ -116,5 +116,14 @@
             android:textStyle="bold|italic"
             android:layout_margin="10dp"
             android:text="Die Gradpartikeln" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Fehlere"
+            android:background="@color/colorMov"
+            android:textColor="@color/colorM"
+            android:textStyle="bold|italic"
+            android:layout_margin="10dp"
+            android:text="Die Fehlere" />
 </LinearLayout>
 </ScrollView>

@@ -30,7 +30,8 @@
         <activity android:name=".TestVocabular" />
         <activity android:name=".HinHer" />
         <activity android:name=".DeclAdj" />
-        <activity android:name=".Pronume"></activity>
+        <activity android:name=".Pronume" />
+        <activity android:name=".Fehlerere"></activity>
     </application>
 
 </manifest>

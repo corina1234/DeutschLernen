@@ -121,5 +121,15 @@ public class meniuGramatica extends AppCompatActivity {
 
             }
         });
+
+        Button button12 = (Button)findViewById(R.id.Fehlere);
+        button12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(meniuGramatica.this,Fehlerere.class));
+
+
+            }
+        });
     }
 }

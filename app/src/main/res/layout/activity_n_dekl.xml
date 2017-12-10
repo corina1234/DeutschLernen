@@ -159,7 +159,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="der Kollege\nder Junge\nder Kunde"
+        android:text="der Kollege\nder Junge\nder Kunde\nder Vorname\nder Geliebte"
         android:layout_marginBottom="20dp"
         android:textSize="15dp"
         android:textColor="@color/colorMov"

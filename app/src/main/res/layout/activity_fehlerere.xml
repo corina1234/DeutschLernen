@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_fehlerere"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/p2"
+        tools:context="com.example.corina.deutschlernen.Fehlerere">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verschiedene Fehlere"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"
+                android:layout_marginBottom="40dp"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Ich wohne BEI den Eltern"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Ich wohne MIT den Eltern"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: die MEISTE Zeit"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: die MEISTEN Zeit"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: JEDE Tag"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: IN JEDEN Tag"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Ich will NICHT zum Museum gehen"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Ich will zum Museum NICHT gehen"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: auf das Einkaufszentrum, auf einer Party, auf eine Reise, auf der Landebahn"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: im Einkaufszentrum, bei einer Party, in eine Reise, an der Landebahn"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: ALLE Leute"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: IN ALLEN Leuten"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Wir WOLLTEN/ SOLLTEN"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Wir WÖLLTEN/ SÖLLTEN"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Sie hat.. TRAUEN lassen"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Sie hat.. GETRAUT lassen"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: IN einem Kindergarden"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: BEI einem Kindergarden"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Sie mag SEHR"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Sie mag SO VIEL"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Obwohl sie HÄTTEN sein können"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Obwohl sie sein können HÄTTEN"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Ein Brand IST AUSGELÖST WORDEN"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Ein Brand HAT AUSGELÖST"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Ich bin nett ZU allem"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Ich bin nett MIT allem"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: sondern auch ich spiele .."
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: sondern auch ich .. spiele"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: JEDEN Samstag"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: JEDER Samstag"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Ich verstehe MIT"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Ich verstehe .."
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Ich spiele GERN"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: Ich spiele MIT GERN"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: die Prüfung MACHEN"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: die Prüfung geben"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Subjekt -> dass Sätze; ohne Subjekt -> .. zu .."
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: AN der Rezeption steht eine Frau"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Falsch: AUF der Rezeption steht eine Frau"
+                android:layout_marginBottom="20dp"
+                android:textSize="10dp"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
