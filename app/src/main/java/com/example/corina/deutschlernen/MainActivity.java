@@ -86,7 +86,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("das Vorurteil","-", "prejudecata","das Urteil = sentinta", "beurteilen = a evalua" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("das Urteil","-", "sentinta","-", "beurteilen = a evalua" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("das Klo","-", "WC","-", "-" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("die Fahrkarte","-", "bilet calatorie","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Fahrkarte","-", "bilet calatorie","die Flugkarte = bilet avion\nder Zettel = bilet", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Flugkarte","-", "bilet avion","die Fahrkarte = bilet calatorie\nder Zettel = bilet", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("hin und zurück","-", "dus intors","-", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("die Hinfahrt","-", "drum dus","die Rückfahrt = drum intors", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("die Rückfahrt","-", "drum intors","die Hinfahrt = drum dus", "-" ,TipStructura.Substantiv));
@@ -187,7 +188,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("die Rechnung","-", "factura, calculul","-", "rechnen = a calcula" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("einhalten","-", "a respecta (un termen)","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("die Sitzung","-", "sedinta","-", "-" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("endgültig","-", "definitiv, final","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("endgültig","-", "definitiv, final","zu Ende sein = a fi final", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("zu Ende sein","-", "a fi final","endgültig = definitiv, final", "-" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("sofort","-", "imediat","-", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("die Braut","-", "mireasa","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("rechtzeitig","-", "la timp","-", "-" ,TipStructura.Adverb));
@@ -206,7 +208,10 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("verpflichtet sein","-", "a fi obligat sa","-", "die Pflicht = obligatie\nkostenpflichtig = contra cost" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("zwingen zu + D","- zwang - hat..gezwungen", "a constrange","-", "der Zwang = constrangere" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("der Zwang","-", "constrangere","-", "zwingen =  a constrange" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("die Folge","-", "episod (film), consecinta","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Folge","-", "episod (film), consecinta","die Konsequenz, der Effekt, die Auswirkung = consecinta", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Konsequenz","-", "consecinta","die Folge, der Effekt, die Auswirkung = consecinta", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Auswirkung","-", "consecinta","die Konsequenz, der Effekt, die Folge = consecinta", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Effekt","-", "consecinta","die Konsequenz, die Folge, die Auswirkung = consecinta", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Krimi","die Krimis", "film/ carte politista","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("das Programm","-", "program","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Sender","-", "emitator","-", "-" ,TipStructura.Substantiv));
@@ -264,7 +269,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("die Wirbelsäule","-", "coloana vertebrala","-", "die Säule = coloana" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("beherrschen","-", "a stapani","-", "der Herr = stapan\nherrschen = a domni" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("herrschen","-", "a domni","-", "der Herr = stapan#nbeherrschen = a stapani" ,TipStructura.Verb));
-        structuraSingletone.adaugaStructura(new Structura("hoffentlich","-", "optimist","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("hoffentlich","-", "cu optimism","hoffnungsvoll = optimist", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("hoffnungsvoll","-", "optimist","hoffentlich = cu optimism", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("die Konzentrationsschwierigkeit","-", "probleme de concentrare","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Stammkunde","-", "client fidel","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("endgültig","-", "definitiv","-", "-" ,TipStructura.Adverb));
@@ -392,9 +398,10 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("Zu welchem Anlass?","-", "Cu ce ocazie?","Welcher ist der Anlass? = Care e ocazia?", "-" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("Welcher ist der Anlass?","-", "Care e ocazia?","Zu welchem Anlass? = Cu ce ocazie?", "-" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("der Vertrag","-", "contract","-", "-" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("gerade","-", "tocmai","-", "-" ,TipStructura.Prepozitie));
+        structuraSingletone.adaugaStructura(new Structura("gerade","-", "tocmai, drept","quer = crucis", "-" ,TipStructura.Prepozitie));
         structuraSingletone.adaugaStructura(new Structura("das Ergebnis","-", "rezultat","das Ereignis = eveniment\ndas Erlebnis = eveniment\ndie Erlaubnis = acord", "-" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("der Erfolg","-", "reusita","-", "erfolgreich = cu succes" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Erfolg","-", "reusita","der Misserfolg = nereusita", "erfolgreich = cu succes" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Miserfolg","-", "nereusita","der Erfolg = reusita", "erfolgreich = cu succes" ,TipStructura.Substantiv));
           structuraSingletone.adaugaStructura(new Structura("erfolgreich","-", "cu succes","-", "der Erfolg = reusita" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("die Eule","-", "bufnita","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Stornsteinfeger","-", "cosar","-", "-" ,TipStructura.Substantiv));
@@ -418,7 +425,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("verwenden","-", "a folosi","gebrauchen = a folosi\nbenutzen = a folosi", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("gebrauchen","-", "a folosi","verwenden = a folosi\nbenutzen = a folosi", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("der Rumäne","die Rumänen", "roman","-", "-" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("die Umwelt","-", "mediu inconjurator","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Umwelt","-", "mediu inconjurator","die Umfeld = mediu (social)", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Umfeld","-", "mediu (social)","die Umwelt = mediu inconjurator", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("verschmutzen","- verschmutzte - verschmutzt", "a polua","-", "die Verschmutzung = poluare" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("die Verschmutzung","-", "poluare","-", "verschmutzen = a polua" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Schutz","-", "protectie","-", "schützen = a proteja" ,TipStructura.Substantiv));
@@ -471,8 +479,9 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("austauschen","-", "a face schimb","umtauschen\ntauschen", "der Austausch = schimb" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("der Wettbewerb","-", "concurs","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("erträglich","-", "suportabil","-", "-" ,TipStructura.Adverb));
-        structuraSingletone.adaugaStructura(new Structura("die Meisterschaft","-", "campionat","-", "-" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("der Besitzer","-", "proprietar","der Eigentümer = proprietar", "besitzen = a apartine" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Meisterschaft","-", "campionat","-", "der Meister = maestru" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Meister","-", "maestru","der Besitzer = proprietar, stapan", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Besitzer","-", "proprietar, stapan","der Eigentümer = proprietar", "besitzen = a apartine" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("besessen sein von + D","-", "a fi obsedat de","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("stehlen","-", "a fura","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("verführen","-", "a cuceri","-", "führen = a conduce" ,TipStructura.Verb));
@@ -561,7 +570,7 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("ausführlich","-", "detaliat","-", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("echt","-", "pe bune, real","-", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("die Botschaft","-", "mesaj, ambasada","die Message", "-" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("der Zettel","-", "bilet","das Zettelchen = biletel", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Zettel","-", "bilet","die Flugkarte, die Fahrkarte = bilet calatorie\ndas Zettelchen = biletel", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("altmodisch","-", "demodat","-", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("umpacken","-", "a impacheta + despacheta","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("jdm auf die Nerven gehen","-", "a calca pe nervi","-", "-" ,TipStructura.Verb));
@@ -576,7 +585,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("nachschlagen","- schlug nach - nachgeschlagen", "a cauta (in dictionar)","die Schlange = sarpe, coada", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("die Gesellschaft","-", "societate","-", "gesellig = sociabil" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("loben","-", "a lauda","lügen = a minti", "-" ,TipStructura.Verb));
-        structuraSingletone.adaugaStructura(new Structura("lügen","- log - gelogen", "a minti","loben = a lauda", "die Lüge = minciuna" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("lügen","- log - gelogen", "a minti","belügen = a minti (pe cineva)\nloben = a lauda", "die Lüge = minciuna" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("belügen","- belog - belogen", "a minti (pe cineva)","lügen = a minti\nloben = a lauda", "die Lüge = minciuna" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("die Lüge","-", "minciuna","-", "lügen = a minti" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Fortschritt","-", "progres","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("die Erziehung","-", "educatie","-", "erziehen = a educa" ,TipStructura.Substantiv));
@@ -685,7 +695,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("der Aufwand","-", "investitie (cost + efort)","-", "aufwändig = greoi, costisitor, cu mult efort" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("die Pflege","-", "ingrijire","die Pflanze = planta", "gepflegt = ingrijit\npflegen = a ingriji" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("gepflegt","-", "ingrijit","-", "die Pflege = ingrijire" ,TipStructura.Adverb));
-        structuraSingletone.adaugaStructura(new Structura("pflegen","-", "a ingriji","-", "die Pflege = ingrijire\ngepflegt = ingrijit" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("pflegen","-", "a ingriji","sich verpflegen = a se ingriji de mancare", "die Pflege = ingrijire\ngepflegt = ingrijit" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("sich verpflegen","-", "a se ingriji de mancare","pflegen = a ingriji", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("die Rübe","die Rüben", "sfecla","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Bedarf an + D","-", "necesarul de ","der Mangel an + D = lipsa de", "-" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("der Mangel an + D","-", "lipsa de","der Bedarf an + D = necesarul de", "-" ,TipStructura.Constructii));
@@ -790,8 +801,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("vernünftig","-", "rational","-", "die Vernunft = ratiune" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("die Vernunft","-", "ratiune","-", "vernünftig = rational" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("Spaß bei Seite!","-", "Lasand gluma la o parte","-", "-" ,TipStructura.Constructii));
-        structuraSingletone.adaugaStructura(new Structura("die Zustimmung","-", "acord, permisiune","die Erlaubnis = acord", "zustimmen = a fi de acord" ,TipStructura.Substantiv));
-        structuraSingletone.adaugaStructura(new Structura("die Erlaubnis","-", "acord, permisiune","die Zustimmung = acord\ndas Ereignis = eveniment\ndas Erlebnis = eveniment, traire\ndas Ergebnis = rezultat", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Zustimmung","-", "acord, permisiune","die Bewilligung, die Genehmigung = permisiune\ndie Erlaubnis = acord", "zustimmen = a fi de acord" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Erlaubnis","-", "acord, permisiune","die Bewilligung, die Genehmigung = permisiune\ndie Zustimmung = acord\ndas Ereignis = eveniment\ndas Erlebnis = eveniment, traire\ndas Ergebnis = rezultat", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("beweisen","-bewies -hat..bewiesen", "a dovedi","nachweisen = a dovedi\nhinweisen = a indica", "der Beweis = dovada" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("nachweisen","-wies..nach -hat..nachgewiesen", "a dovedi","beweisen = a dovedi\nhinweisen = a indica", "der Nachweis = dovada" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("berauben","-", "a talhari","stehlen = a fura", "-" ,TipStructura.Verb));
@@ -1042,7 +1053,9 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("die Kündigung","-", "concedierea","-", "kündigen = a concedia" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("Zörnig sein auf + Akk","-", "a fi furios","-", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("ganz anders","-", "total altfel","-", "-" ,TipStructura.Constructii));
-        structuraSingletone.adaugaStructura(new Structura("wenigstens","-", "cel putin, macar","-", "-" ,TipStructura.Prepozitie));
+        structuraSingletone.adaugaStructura(new Structura("wenigstens","-", "cel putin, macar","zumindest = cel putin, macar\nmindestens = cel putin", "-" ,TipStructura.Prepozitie));
+        structuraSingletone.adaugaStructura(new Structura("zumindest","-", "cel putin, macar","wenigstens = cel putin, macar\nmindestens = cel putin", "-" ,TipStructura.Prepozitie));
+        structuraSingletone.adaugaStructura(new Structura("mindestens","-", "cel putin","zumindest, wenigstens = cel putin, macar\nhöchstens = cel mult", "-" ,TipStructura.Prepozitie));
         structuraSingletone.adaugaStructura(new Structura("bestimmt","-", "sigur","sicher = sigur", "-" ,TipStructura.Adverb));
         structuraSingletone.adaugaStructura(new Structura("gut gehen","-", "a merge bine","schief gehen/ laufen = a merge rau", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("wie geht's","-", "cum merge","wie läuft's = cum merge", "-" ,TipStructura.Constructii));
@@ -1203,8 +1216,9 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("die Donau Delta","-", "Delta Dunarii","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Eigentümer","-", "proprietar","der Besitzer = proprietar", "das Eigentum = proprietate" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("vorlesen","-", "a citi cuiva","-", "-" ,TipStructura.Verb));
-        structuraSingletone.adaugaStructura(new Structura("verpassen","-", "a rata sansa","verlieren = a pierde concret", "-" ,TipStructura.Verb));
-        structuraSingletone.adaugaStructura(new Structura("verlieren","-", "a pierde concret","verpassen = a rata sansa", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("verpassen","-", "a rata (sansa)","versäumen = a rata\nverlieren = a pierde concret", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("versäumen","-", "a rata (sansa)","verpassen = a rata\nverlieren = a pierde concret", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("verlieren","-", "a pierde concret","versäumen, verpassen = a rata sansa", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("erreichen","-", "a prinde","erreichbar = disponibil\nfangen, fassen = a prinde", "-" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("weinen","- weinte - hat..geweint", "a plange","-", "das Weinen = plans" ,TipStructura.Verb));
         structuraSingletone.adaugaStructura(new Structura("das Weinen","-", "plans","-", "weinen = a plange" ,TipStructura.Substantiv));
@@ -1270,7 +1284,7 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("die Sportart","- die Sportarten", "tip sport","-", "der Sport" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Zeitgenosse","-", "contemporan","-", "zeitgenossisch = contemporan" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("zeitgenossisch","-", "contemporan","-", "der Zeitgenosse = contemporan" ,TipStructura.Adverb));
-        structuraSingletone.adaugaStructura(new Structura("höchstens","-", "cel mult","-", "-" ,TipStructura.Constructii));
+        structuraSingletone.adaugaStructura(new Structura("höchstens","-", "cel mult","mindestens = cel putin", "-" ,TipStructura.Prepozitie));
         structuraSingletone.adaugaStructura(new Structura("im frühen Alter","-", "in tinerete","im hohen Alter = la batranete", "das Alter = varsta" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("im hohen Alter","-", "la batranete","im frühen Alter = in tinerete", "das Alter = varsta" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("das Alter","-", "varsta","-", "-" ,TipStructura.Substantiv));
@@ -1401,7 +1415,8 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("einen Beruf ausüben","-", "a profesa un job","-", "-" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("der Inhaber","-", "patron","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("begeistert","-", "entuziasmat","-", "-" ,TipStructura.Adverb));
-        structuraSingletone.adaugaStructura(new Structura("das Vorbild","-", "model","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("das Vorbild","-", "model (persoana)","das Modell = model", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("das Modell","-", "model","das Vorbild = model (persoana)", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("der Brauch","-", "obicei","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("je nach","-", "in functie de","-", "-" ,TipStructura.Prepozitie));
         structuraSingletone.adaugaStructura(new Structura("verletzen","-", "a se rani","-", "-" ,TipStructura.Verb));
@@ -1572,6 +1587,30 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("das Zimmer","die Zimmer", "camera","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("fast perfekt","-", "aproape perfect","-", "-" ,TipStructura.Constructii));
         structuraSingletone.adaugaStructura(new Structura("das Koch","die Köche", "bucatar","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("beruflich","-", "profesional","privat = privat", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("privat","-", "privat","beruflich = profesional", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("der Freundeskreis","-", "cerc de prieteni","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("das Thema","-", "tema","das Subjekt = subiect (parte de vorbire)", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("das Subjekt","-", "subiect (parte de vorbire)","das Thema = tema", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("gestrig","-", "demodat","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("heutig","-", "contemporan","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("morgig","-", "de viitor","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("die Rezeption","-", "receptie","der Empfang = receptie", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("der Empfang","-", "receptie","die Rezeption = receptie", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Umgebung","-", "imprejurare","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("schweigen","- schwieg - hat..geschwiegen", "a tacea","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("vorig","-", "precedent","-", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("übrigens","-", "de altfel","-", "-" ,TipStructura.Prepozitie));
+        structuraSingletone.adaugaStructura(new Structura("quer","-", "crucis","gerade = drept", "-" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("der Lautsprecher","-", "difuzor","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("entgegen + D","-", "in profida","-", "-" ,TipStructura.Prepozitie));
+        structuraSingletone.adaugaStructura(new Structura("heben","- hob -hat..gehoben", "a ridica (concret)","abhölen = a ridica", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("abheben","-", "a ridica (nu concret)","heben = a ridica (concret)\nabhölen = a ridica", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("um Rat bitten","-", "a cere un sfat","-", "-" ,TipStructura.Constructii));
+        structuraSingletone.adaugaStructura(new Structura("die Genehmigung","-", "permisiune, autorizatie","die Bewilligung, die Erlaubnis, die Zustimmung = permisiune", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Bewilligung","-", "permisiune","die Genehmigung, die Erlaubnis, die Zustimmung = permisiune", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Anzahl","-", "cifra","die Zahl = cifra", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("die Zahl","-", "cifra","die Anzahl = cifra", "-" ,TipStructura.Substantiv));
 /*
         try
         {
