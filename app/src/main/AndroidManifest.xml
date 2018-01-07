@@ -31,7 +31,9 @@
         <activity android:name=".HinHer" />
         <activity android:name=".DeclAdj" />
         <activity android:name=".Pronume" />
-        <activity android:name=".Fehlerere"></activity>
+        <activity android:name=".Fehlerere" />
+        <activity android:name=".TestVocabularLista" />
+        <activity android:name=".DetaliiStructuraRomanaGermana"></activity>
     </application>
 
 </manifest>

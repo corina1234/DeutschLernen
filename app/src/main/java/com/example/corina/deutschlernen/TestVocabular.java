@@ -25,9 +25,9 @@ public class TestVocabular extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_vocabular);
 
-         structuraSingletone = StructuraSingletone.getInstance();
+        structuraSingletone = StructuraSingletone.getInstance();
         cuvantRandom=(TextView)findViewById(R.id.cuvantRandom);
-       random1 = new Random();
+        random1 = new Random();
 
         cuvantClient = (EditText)findViewById(R.id.editTextSolutie);
         raspunsFinal =(TextView)findViewById(R.id.raspuns);
@@ -50,15 +50,15 @@ public class TestVocabular extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-              String cuvantClientString =  cuvantClient.getText().toString().trim();
+                String cuvantClientString =  cuvantClient.getText().toString().trim();
                 for(Structura s: structuraSingletone.getListaCuvinte()) {
                     if(s.getTraducere().equals(cuvantRandom.getText())){
                         if (s.getStructuraGermana().toLowerCase(Locale.getDefault()).equalsIgnoreCase(cuvantClientString)) {
-                         raspunsFinal.setText("Richtig!");
+                            raspunsFinal.setText("Richtig!");
                             break;
-                    }
-                    else {
-                        raspunsFinal.setText("Falsch");
+                        }
+                        else {
+                            raspunsFinal.setText("Falsch");
                             raspunsCorect.setText(s.getStructuraGermana());
                         }
                     }
