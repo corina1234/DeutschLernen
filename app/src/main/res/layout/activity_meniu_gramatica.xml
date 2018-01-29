@@ -18,6 +18,15 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/prepozitii"
+            android:background="@color/colorMov"
+            android:textColor="@color/colorM"
+            android:textStyle="bold|italic"
+            android:layout_margin="10dp"
+            android:text="Präpositionen" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/pronume"
             android:background="@color/colorMov"
             android:textColor="@color/colorM"

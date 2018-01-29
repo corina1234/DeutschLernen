@@ -131,5 +131,15 @@ public class meniuGramatica extends AppCompatActivity {
 
             }
         });
+
+        Button button13 = (Button)findViewById(R.id.prepozitii);
+        button12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(meniuGramatica.this,Prepozitii.class));
+
+
+            }
+        });
     }
 }

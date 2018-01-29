@@ -1877,6 +1877,11 @@ public class MainActivity extends AppCompatActivity {
         structuraSingletone.adaugaStructura(new Structura("das Lied","-", "cantec","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("die Freizeit","-", "timp liber","-", "-" ,TipStructura.Substantiv));
         structuraSingletone.adaugaStructura(new Structura("das Spiel","-", "joc","-", "spielen = a se juca" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("erfahren","-", "a afla","-", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("der Raucher","-", "fumator","-", "-" ,TipStructura.Substantiv));
+        structuraSingletone.adaugaStructura(new Structura("absichtlich","-", "intentionat","-", "beabsichtigen = a intentiona\nder Absicht = intentie" ,TipStructura.Adverb));
+        structuraSingletone.adaugaStructura(new Structura("verlassen","-", "a lasa","lassen = a lasa", "-" ,TipStructura.Verb));
+        structuraSingletone.adaugaStructura(new Structura("ziehen","-", "a extrage","umziehen = a se muta", "-" ,TipStructura.Verb));
 /*
         try
         {

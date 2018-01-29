@@ -33,7 +33,8 @@
         <activity android:name=".Pronume" />
         <activity android:name=".Fehlerere" />
         <activity android:name=".TestVocabularLista" />
-        <activity android:name=".DetaliiStructuraRomanaGermana"></activity>
+        <activity android:name=".DetaliiStructuraRomanaGermana" />
+        <activity android:name=".Prepozitii"></activity>
     </application>
 
 </manifest>
