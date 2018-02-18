@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ab\nzu\naußer\nnach\nbei\nvon\naus\nmit\nseit\ngegenüber"
+            android:text="vor = inainte (de)\nab = de la, incepand cu\nbei = in timpul\nin = in\nnach = dupa\n\nzu = la (miscare)\nbei = la (static)\n\naußer\nvon\naus\nmit\n\nseit = de .. (timp)\nvor = acum .., demult\n\ngegenüber\nbis zu = pana la\nan.. vorbei = pe langa\n\nvon..an = incepand cu"
             android:layout_marginBottom="20dp"
             android:textSize="15dp"
             android:textColor="@color/colorMov"
@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bis\ndurch\nfür\nohne\ngegen\num"
+        android:text="bis = pana la\n\ndurch = prin\nentlang = de-alungul\nüber = peste\num = in jurul, la\num.. herum = de jur imprejur\n\nfür\nohne\ngegen\n\nüber = peste, mai mult de (temporal)"
         android:layout_marginBottom="20dp"
         android:textSize="15dp"
         android:textColor="@color/colorMov"
