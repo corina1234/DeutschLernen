@@ -9,7 +9,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:background="@drawable/p2"
-        tools:context="com.example.corina.deutschlernen.Pronume">
+        tools:context="com.example.corina.deutschlernen.gramaticaStuff.Pronume">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -26,7 +26,23 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" 1) Pronumele posesiv"
+                android:text=" 1) Pronumele personal"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorMov"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N: ich, du, er, sie, es, wir, ihr, sie, Sie\nAkk: mich, dich, ihn, sie, es, uns, euch, sie, Sie\nD: mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2) Pronumele posesiv"
                 android:layout_marginBottom="15dp"
                 android:textColor="@color/colorMov"
                 android:textStyle="bold"
@@ -97,22 +113,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-mein" />
+                        android:text="mein" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meine" />
+                        android:text="meine" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-mein" />
+                        android:text="mein" />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meine" />
+                        android:text="meine" />
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -130,22 +146,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meines   " />
+                        android:text="meines   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meiner   " />
+                        android:text="meiner   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meines   " />
+                        android:text="meines   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meiner   " />
+                        android:text="meiner   " />
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -162,22 +178,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meinem   " />
+                        android:text="meinem   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meiner   " />
+                        android:text="meiner   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meinem   " />
+                        android:text="meinem   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meinen   " />
+                        android:text="meinen   " />
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -194,28 +210,28 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meinen   " />
+                        android:text="meinen   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meine   " />
+                        android:text="meine   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-mein   " />
+                        android:text="mein   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-meine   " />
+                        android:text="meine   " />
                 </TableRow>
             </TableLayout>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" 2) Pronume reflexiv"
+                android:text=" 3) Pronume reflexiv"
                 android:layout_marginBottom="15dp"
                 android:textColor="@color/colorMov"
                 android:layout_marginTop="40dp"
@@ -224,7 +240,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="mich, dich, sich, uns, euch"
+                android:text="mich/ mir, dich/ dir, sich, uns, euch"
                 android:layout_marginBottom="20dp"
                 android:textSize="15dp"
                 android:textColor="@color/colorPrimary"
@@ -232,11 +248,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text=" 3) Pronumele demonstrativ"
+                android:text=" 4) Pronumele demonstrativ"
                 android:layout_marginBottom="15dp"
                 android:textColor="@color/colorMov"
                 android:textStyle="bold"
                 android:layout_marginTop="40dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceeasi conjugare pentru: welche, jede, jene, manche, einige, mehrere"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
                 />
             <TableLayout
                 android:layout_width="wrap_content"
@@ -296,22 +320,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieser   " />
+                        android:text="dieser   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diese   " />
+                        android:text="diese   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieses   " />
+                        android:text="dieses   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diese   " />
+                        android:text="diese   " />
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -329,22 +353,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieses   " />
+                        android:text="dieses   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieser   " />
+                        android:text="dieser   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieses   " />
+                        android:text="dieses   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieser   " />
+                        android:text="dieser   " />
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -361,22 +385,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diesem   " />
+                        android:text="diesem   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieser   " />
+                        android:text="dieser   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diesem   " />
+                        android:text="diesem   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diesen   " />
+                        android:text="diesen   " />
                 </TableRow>
                 <TableRow
                     android:layout_width="fill_parent"
@@ -393,22 +417,22 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diesen   " />
+                        android:text="diesen   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diese   " />
+                        android:text="diese   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-dieses   " />
+                        android:text="dieses   " />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textAppearance="?android:attr/textAppearanceMedium"
-                        android:text="-diese   " />
+                        android:text="diese   " />
                 </TableRow>
             </TableLayout>
         </LinearLayout>

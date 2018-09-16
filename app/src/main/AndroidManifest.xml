@@ -2,39 +2,45 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.corina.deutschlernen">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/welcome_deutsch"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".meniuri.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Meniu2" />
-        <activity android:name=".ListaCuvinte" />
-        <activity android:name=".DetaliiStructura" />
-        <activity android:name=".gradpartikeln" />
-        <activity android:name=".meniuGramatica" />
-        <activity android:name=".nDekl" />
-        <activity android:name=".wissenKennenKonnen" />
-        <activity android:name=".RelativPronomen" />
-        <activity android:name=".diatezaPasiva" />
-        <activity android:name=".VbLoc2" />
-        <activity android:name=".VbFinal" />
-        <activity android:name=".NachdemSatze" />
-        <activity android:name=".TestVocabular" />
-        <activity android:name=".HinHer" />
-        <activity android:name=".DeclAdj" />
-        <activity android:name=".Pronume" />
-        <activity android:name=".Fehlerere" />
-        <activity android:name=".TestVocabularLista" />
-        <activity android:name=".DetaliiStructuraRomanaGermana" />
-        <activity android:name=".Prepozitii"></activity>
+        <activity android:name=".meniuri.Meniu2" />
+        <activity android:name=".cuvinteAfisare.ListaCuvinte" />
+        <activity android:name=".cuvinteAfisare.DetaliiStructura" />
+        <activity android:name=".gramaticaStuff.gradpartikeln" />
+        <activity android:name=".meniuri.meniuGramatica" />
+        <activity android:name=".gramaticaStuff.nDekl" />
+        <activity android:name=".gramaticaStuff.wissenKennenKonnen" />
+        <activity android:name=".gramaticaStuff.RelativPronomen" />
+        <activity android:name=".gramaticaStuff.diatezaPasiva" />
+        <activity android:name=".gramaticaStuff.VbLoc2" />
+        <activity android:name=".gramaticaStuff.VbFinal" />
+        <activity android:name=".gramaticaStuff.NachdemSatze" />
+        <activity android:name=".testVocabularStuff.TestVocabular" />
+        <activity android:name=".gramaticaStuff.HinHer" />
+        <activity android:name=".gramaticaStuff.DeclAdj" />
+        <activity android:name=".gramaticaStuff.Pronume" />
+        <activity android:name=".gramaticaStuff.Fehlerere" />
+        <activity android:name=".testVocabularStuff.TestVocabularLista" />
+        <activity android:name=".testVocabularStuff.DetaliiStructuraRomanaGermana" />
+        <activity android:name=".gramaticaStuff.Prepozitii" />
+        <activity android:name=".meniuri.admin" />
+        <activity android:name=".administrare.AdaugaStructuriiView" />
+        <activity android:name=".administrare.ListViewToateCuvinte"></activity>
     </application>
 
 </manifest>

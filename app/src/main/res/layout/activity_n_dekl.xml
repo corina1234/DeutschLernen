@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
 
     android:background="@drawable/p2"
-    tools:context="com.example.corina.deutschlernen.nDekl">
+    tools:context="com.example.corina.deutschlernen.gramaticaStuff.nDekl">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -207,7 +207,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="der Nachbar\nder Herr"
+        android:text="der Nachbar\nder Herr\nder Prinz"
         android:layout_marginBottom="20dp"
         android:textSize="15dp"
         android:textColor="@color/colorMov"

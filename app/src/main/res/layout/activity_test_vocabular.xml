@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/p2"
     android:orientation="vertical"
-    tools:context="com.example.corina.deutschlernen.TestVocabular">
+    tools:context="com.example.corina.deutschlernen.testVocabularStuff.TestVocabular">
 
 
         <TextView

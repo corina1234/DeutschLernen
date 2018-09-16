@@ -9,7 +9,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:background="@drawable/p2"
-        tools:context="com.example.corina.deutschlernen.Prepozitii">
+        tools:context="com.example.corina.deutschlernen.gramaticaStuff.Prepozitii">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="vor = inainte (de)\nab = de la, incepand cu\nbei = in timpul\nin = in\nnach = dupa\n\nzu = la (miscare)\nbei = la (static)\n\naußer\nvon\naus\nmit\n\nseit = de .. (timp)\nvor = acum .., demult\n\ngegenüber\nbis zu = pana la\nan.. vorbei = pe langa\n\nvon..an = incepand cu"
+            android:text="vor = inainte (de)\nab = de la, incepand cu\nbei = in timpul\nin = in\nnach = dupa\n\nzu = la (miscare)\nbei = la (static)\n\naußer\nvon\naus\nmit\n\nseit = de .. (timp)\nvor = acum .., demult\n\ngegenüber\nbis zu = pana la\nan.. vorbei = pe langa\n\nvon..an = incepand cu\nTemporale (an, vor, zwischen)\nentlang (entlang dem Park)"
             android:layout_marginBottom="20dp"
             android:textSize="15dp"
             android:textColor="@color/colorMov"
@@ -48,7 +48,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="bis = pana la\n\ndurch = prin\nentlang = de-alungul\nüber = peste\num = in jurul, la\num.. herum = de jur imprejur\n\nfür\nohne\ngegen\n\nüber = peste, mai mult de (temporal)"
+        android:text="bis = pana la\n\ndurch = prin\nentlang = de-alungul (den Park entlang)\nüber = peste\num = in jurul, la\num.. herum = de jur imprejur\n\nfür\nohne\ngegen\n\nüber = peste, mai mult de (temporal)"
         android:layout_marginBottom="20dp"
         android:textSize="15dp"
         android:textColor="@color/colorMov"
@@ -78,7 +78,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="wegen\naußerhalb\ninnerhalb\nstatt\trotz"
+                android:text="wegen\naußerhalb\ninnerhalb\nstatt\ntrotz\nwährend"
                 android:layout_marginBottom="20dp"
                 android:textSize="15dp"
                 android:textColor="@color/colorMov"

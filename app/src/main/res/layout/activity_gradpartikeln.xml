@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:background="@drawable/p2"
-    tools:context="com.example.corina.deutschlernen.gradpartikeln">
+    tools:context="com.example.corina.deutschlernen.gramaticaStuff.gradpartikeln">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">DeutschLernen</string>
+    <string-array name="spinnerValues">
+        <item>Verb</item>
+        <item>Substantiv</item>
+        <item>Adjectiv/Adverb</item>
+        <item>Prepozitie/Conjunctie</item>
+        <item>Constructie</item>
+    </string-array>
 </resources>

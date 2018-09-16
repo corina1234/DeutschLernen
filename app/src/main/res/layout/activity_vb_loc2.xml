@@ -9,7 +9,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:background="@drawable/p2"
-        tools:context="com.example.corina.deutschlernen.VbLoc2">
+        tools:context="com.example.corina.deutschlernen.gramaticaStuff.VbLoc2">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

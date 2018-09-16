@@ -9,7 +9,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         android:background="@drawable/p2"
-        tools:context="com.example.corina.deutschlernen.Fehlerere">
+        tools:context="com.example.corina.deutschlernen.gramaticaStuff.Fehlerere">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -315,6 +315,78 @@
                 android:layout_marginBottom="20dp"
                 android:textSize="10dp"
                 android:textColor="@color/colorPrimary"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Topic: wann, warum, wie, wo"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="in Resturant, in Park, in Supermarkt, in Garten"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="vor + nach -> inainte de Substantive; bevor + nachdem -> Conector"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: den ganzen Tag, letzten Montag (nicht der ganze Tag)"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sehr + helfen, mögen, lieben, sprechen, gefallen, sich freuen"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: alle Sachen (nicht: die alle Sachen)"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: an einem Italienischen Kurs (nicht an einem Italienisch Kurs)"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: einfallen + mir (nicht ich falle ein)"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Richtig: Anfang November (nicht: am Anfang November)"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp"
+                android:textColor="@color/colorMov"
                 />
         </LinearLayout>
 
