@@ -58,6 +58,7 @@ public class TestVocabular extends AppCompatActivity {
                     if(s.getTraducere().equals(cuvantRandom.getText())){
                         if (s.getStructuraGermana().toLowerCase(Locale.getDefault()).equalsIgnoreCase(cuvantClientString)) {
                             raspunsFinal.setText("Richtig!");
+                            raspunsCorect.setText(s.getListacuvinteAsemanatoare());
                             break;
                         }
                         else {

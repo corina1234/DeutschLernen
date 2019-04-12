@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -40,7 +41,8 @@
         <activity android:name=".gramaticaStuff.Prepozitii" />
         <activity android:name=".meniuri.admin" />
         <activity android:name=".administrare.AdaugaStructuriiView" />
-        <activity android:name=".administrare.ListViewToateCuvinte"></activity>
+        <activity android:name=".administrare.ListViewToateCuvinte" />
+        <activity android:name=".DictionarJson" />
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.corina.deutschlernen.DictionarJson;
 import com.example.corina.deutschlernen.R;
 import com.example.corina.deutschlernen.dbStuff.DBAdapter;
 import com.example.corina.deutschlernen.structuraSchelet.Structura;
@@ -108,6 +109,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,admin.class));
+
+
+            }
+        });
+
+        Button button6 = (Button)findViewById(R.id.dictExt);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,DictionarJson.class));
 
 
             }
